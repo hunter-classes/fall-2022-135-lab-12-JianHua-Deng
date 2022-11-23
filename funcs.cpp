@@ -3,7 +3,7 @@
 //Task A
 std::vector<int> makeVector(int n){
     std::vector<int> newVector;
-    for(int i = 0; i < n - 1; i++){
+    for(int i = 0; n > 0 && i < n - 1; i++){
        newVector.push_back(i);
     }//end for loop
     return newVector;
